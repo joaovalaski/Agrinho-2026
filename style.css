@@ -301,13 +301,12 @@ footer {
     font-size: 0.9rem;
 }
 .card img {
-    width: 50%;
-    height: 90px;
-    object-fit: cover;
-    border-radius: 8px 8px 0 0;
-    margin-bottom: 15px;
-    display: block; /* Evita pequenos espaços em branco abaixo da foto */
-}
+    width: 100%;
+    height: 140px; /* Altura reduzida para a imagem ficar menor */
+    object-fit: cover; /* Mantém o corte proporcional sem distorcer a foto */
+    border-radius: 8px 8px 0 0; /* Mantém apenas as bordas de cima arredondadas */
+    margin-bottom: 12px; /* Reduz ligeiramente o espaço entre a foto e o texto */
+    display: block;
 
 /* --- RESPONSIVIDADE EM CELULARES --- */
 @media (max-width: 768px) {
